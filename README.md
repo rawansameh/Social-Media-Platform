@@ -153,9 +153,12 @@ Functionality: Retrieves all posts of all users.
 	Functionality: Retrieve a posts by its ID using viewpostdto.ts
 
 # 6. User & Post Interaction
-Files
-user.service.ts, user.controller.ts, postservice.ts, postcontroller.ts
-Description
+Files:
+
+user.service.ts, user.controller.ts, postservice.ts, postcontroller.ts:
+
+Description:
+
 Developing functionalities for user & Post interaction. This stage encompasses users following and unfollowing each other, user liking and unliking each other's posts, and viewing likes on a post.
 APIs created in this stage in both postcontroller.ts and usercontroller.ts
 1. Follow User
@@ -184,9 +187,12 @@ Functionality: As the image appears as a path when the user clicks on it, they a
 
 
 # 7. User Wall Management: Developing Filters and Different User Views of Their Wall
-Files
+Files:
+
 postcontroller.ts, postservice.ts, filtration.constants.ts
-Description
+
+Description:
+
 The User Wall Management stage focuses on the functionality that allows users to view and interact with a stream of posts, commonly known as a "wall" or "feed," on the social media platform. A user has two views either the wall view which contains all users and a following view where the user observes the posts of the users they follow. A user has three options for filtration in each view: recent, oldest, mostLiked. All views have a default pagination of page = 1 and count = 3.
 APIs created in this stage in postcontroller.ts
 1. Wall View
@@ -223,16 +229,22 @@ Endpoint with Pagination: GET /posts/following/mostLiked?page=2&count=3
 Functionality:  Retrieves posts created by users that a user follows and lists them from the most liked post.
 
 # 8. Unit testing
-Files
+Files:
+
 user.service.spec.ts, user.controller.spec.ts
-Description
+
+Description:
+
 The file user.controller.spec.ts uses Jest's mocking capabilities to mock dependencies like the UserService and I18nService. It tests two main scenarios: creating a user and logging in a user. For each scenario, it defines test cases that check whether the controller methods correctly interact with the UserService and return the expected results. The tests also validate that the appropriate methods of the mocked services are called with the expected arguments. The file user.service.spec.ts also include unit tests for the createUser and login methods of the UserService. It utilizes Jest's mocking capabilities to mock dependencies, including the database model for users (userModelMock) and the JWT service (jwtServiceMock). The tests cover various scenarios, such as successful user creation, handling of existing usernames during login, and handling incorrect passwords during login. The use of asynchronous functions and Promise-based assertions is prevalent in the tests to handle async operations like database queries.
 Mocks are used to simulate database queries and responses, allowing for controlled testing of service methods.
 
 # 8. Adding Arabic language
-Files
+Files:
+
 en/translation.json, ar/translation.json, user.service.ts, posts.service.ts
-Description
+
+Description:
+
 The files contain the translations of various messages returned by the program in arabic and english. The user in the request choose the language with english as default and the messages are returned in the language the user chooses
 
 
