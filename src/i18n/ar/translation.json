@@ -1,0 +1,33 @@
+{
+    "userNotFound": "المستخدم غير موجود",
+    "invalidUsernameOrPassword": "اسم المستخدم أو كلمة المرور غير صحيحة",
+    "followerNotFound": "المتابع غير موجود",
+    "alreadyFollowingUser": "أنت بالفعل تتابع هذا المستخدم",
+    "followedSuccessfully": "تمت المتابعة بنجاح",
+    "unfollowedSuccessfully": "تم إلغاء المتابعة بنجاح",
+    "userNotInFollowingList": "المستخدم ليس في قائمة المتابعة",
+    "userDeactivatedSuccessfully": "تم إلغاء تفعيل المستخدم بنجاح",
+    "userActivatedSuccessfully": "تم تفعيل المستخدم بنجاح",
+    "userDeletedSuccessfully": "تم حذف المستخدم بنجاح",
+    "email": "الرجاء إدخال بريد إلكتروني صحيح",
+    "username": "اسم المستخدم مطلوب",
+    "fullName": "يجب أن يحتوي الاسم الكامل على الاسم الأول والأخير على الأقل",
+    "password": {
+      "notEmpty": "كلمة المرور مطلوبة",
+      "minLength": "يجب أن تكون كلمة المرور مكونة من 6 أحرف على الأقل"
+    },
+    "bio": "السيرة الذاتية اختيارية",
+    "location": "الموقع اختياري",
+    "occupation": "المهنة اختيارية",
+    "hobbies": "الهوايات اختيارية",
+    "PostNotFound": "المنشور غير موجود",
+    "YouAreNotTheOwnerOfThisPost": "أنت لست صاحب هذا المنشور",
+    "YouHaveAlreadyLikedThisPost": "لقد قمت بالفعل بالإعجاب بهذا المنشور",
+    "YouAlreadyDoNotLikeThisPost": "أنت لم تعد تعجب بهذا المنشور",
+    "UnsupportedImageSize": "حجم الصورة غير مدعوم",
+    "FailedToProcessImage": "فشل في معالجة الصورة",
+   "NoPostsInYourFollowingFeed":"لا توجد مشاركات في صفحة المتابعين الخاصة بك",
+   "NoPostsInYourWallFeed": " لا توجد مشاركات على الصفحة الرئيسية الخاصة بك",
+   "FailedToCreatePost": "فشل إنشاء المنشور"
+
+  }

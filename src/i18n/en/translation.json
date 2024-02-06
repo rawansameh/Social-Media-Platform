@@ -1,0 +1,34 @@
+{
+    "userNotFound": "User not found",
+    "invalidUsernameOrPassword": "Invalid username or password",
+    "followerNotFound": "Follower not found",
+    "alreadyFollowingUser": "Already following this user",
+    "followedSuccessfully": "Followed successfully",
+    "unfollowedSuccessfully": "Unfollowed successfully",
+    "userNotInFollowingList": "User is not in the following list",
+    "userDeactivatedSuccessfully": "User deactivated successfully",
+    "userActivatedSuccessfully": "User activated successfully",
+    "userDeletedSuccessfully": "User successfully deleted",
+    "email": "Please enter a correct email",
+    "username": "Username is required",
+    "fullName": "Full name must contain at least a first and last name",
+    "password": {
+      "notEmpty": "Password is required",
+      "minLength": "Password must be at least 6 characters long"
+    },
+    "bio": "Biography is optional",
+    "location": "Location is optional",
+    "occupation": "Occupation is optional",
+    "hobbies": "Hobbies are optional",
+    "PostNotFound": "Post not found",
+    "YouAreNotTheOwnerOfThisPost": "You are not the owner of this post",
+    "YouHaveAlreadyLikedThisPost": "You have already liked this post",
+    "YouAlreadyDoNotLikeThisPost": "You already do not like this post",
+    "UnsupportedImageSize": "Unsupported image size",
+    "FailedToProcessImage": "Failed to process image",
+    "NoPostsInYourFollowingFeed": "No Posts in your following feed",
+    "NoPostsInYourWallFeed": "No Posts in your Wall feed",
+    "FailedToCreatePost": "Failed to create Post"
+
+  }
+  

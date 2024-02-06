@@ -1,0 +1,19 @@
+
+version: '3.8'
+services:
+  app:
+    container_name: nestjs-app
+    build: .
+    ports:
+      - "3000:3000"
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
+   # command: npm test
+  mongodb:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+
