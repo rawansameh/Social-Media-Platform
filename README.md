@@ -27,7 +27,8 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 # 0. Introduction 
-Project Description
+Project Description:
+
 This project involves the creation of a comprehensive social media platform, designed to allow users to interact, share posts, and view profiles. The platform is developed with a focus on user and post management functionalities.
 Project Requirements
 Database Management: Integration with a NoSQL database 
@@ -39,7 +40,9 @@ User Interaction: Features like following/unfollowing users and liking/unliking 
 Content Filtering: Abilities to filter the content posted by users.
 Support Dual language: include the arabic language along with English
 Unit testing for User login and Registration journey
-Project Stages
+
+Project Stages:
+
 The project was divided into stages based on these requirements:
 Initial Setup: Configuring the server, database, and core modules.
 Database Design and Schema Definition: Creating user and post schemas.
@@ -52,18 +55,25 @@ Unit testing: User Login and Registration journey
 Adding Arabic language: Creating translation files
 
 # 1. Initial Setup 
-Files
+Files:
+
 main.ts, app.module.ts
-Description
+
+Description:
+
 Setting up the core application framework, configuration of modules, and integration of various components. This stage includes initializing the server and setting up the primary application module.
 
-Technology Stack
+Technology Stack:
+
  Node.js with NestJS framework, MongoDB database
 
 # 2. Database Design and Schema Definition 
-Files
+Files:
+
 posts.schema.ts, user.schema.ts
-Description
+
+Description:
+
 Designing the database schema to define how user data and posts are stored. This involves creating models for users and posts, outlining their attributes.
 User Schema (user.schema.ts) 
 Designing a schema to manage user data, including the following attributes: username (required), password (required), email (required) , full name (required), bio (optional), hobbies (optional) , occupation (optional), location (optional), following (account that the user follows), active (whether the user account is active, default true), and user posts.
@@ -71,9 +81,11 @@ Posts Schema (posts.schema.ts)
 Creating a schema for posts, which includes the following attributes: title, contents, image, creation date, user (user that made the post), likes (list of users that liked the post)
 
 # 3. User Authentication
-Files
+Files:
+
 user.guard.ts, login.dto.ts, CreatePost.dto.ts, userservice.ts, usercontroller.ts, constants.ts
-Description
+Description:
+
 Implementing authentication mechanisms to manage user login processes and secure access to the platform. This includes setting up guards for route protection and data transfer objects (DTOs) for login. Implementing secure login processes, including password hashing using bcrpyt and token generation using jwt. Setting up guards for route protection to ensure that only authenticated users can access certain functionalities.
 APIs created in this stage in usercontroller.ts
 1. User SignUp
@@ -84,9 +96,12 @@ Endpoint: POST /users/login
 Functionality: Authenticates a user using their username and password, it also returns a token after logging in using jwt.
 
 # 4. User Account Management
-Files
+Files:
+
 createuser.dto.ts, updateuser.dto.ts, viewprofiledto.ts, user.service.ts, user.controller.ts, 
-Description
+
+Description:
+
 Developing functionalities for user account creation, profile updates, and profile viewing. This stage encompasses user registration, updating user information, and retrieving user profiles. Enabling users to create accounts (createuser.dto.ts), update their profiles (updateuser.dto.ts), and view profiles (viewprofiledto.ts). This includes handling user data validation.
 APIs created in this stage in usercontroller.ts
 1. Get Users
@@ -113,9 +128,12 @@ Endpoint: POST /users/profile/activate
 Functionality: Enables a user to reactivate their account. The method is used for reactivating a user's account. It functions similarly to the deactivate method but reverses the process.
 
 # 5. Post Management 
-Files
+Files:
+
 posts.controller.ts, posts.service.ts, CreatePosts.Dto.ts, UpdatePosts.Dto.ts, ViewPost.Dto.ts
-Description
+
+Description:
+
 Building the system for creating, updating, and viewing posts. This includes handling post creation, editing posts, and displaying posts to users. Facilitating users to create (CreatePosts.Dto.ts), update (UpdatePosts.Dto.ts), view (ViewPost.Dto.ts) posts, and delete posts. 
 APIs created in this stage in postcontroller.ts
 1. Create Post
