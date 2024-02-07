@@ -30,28 +30,47 @@
 Project Description:
 
 This project involves the creation of a comprehensive social media platform, designed to allow users to interact, share posts, and view profiles. The platform is developed with a focus on user and post management functionalities.
+
 Project Requirements
+
 Database Management: Integration with a NoSQL database 
+
 Authentication and Security: Implementation of secure authentication (using JWT) and data protection practices.
+
 API Development: Creation of RESTful APIs for various functionalities like user management and post interactions.
+
 User Account Management: Registration, login, profile update, and account deactivation/reactivation functionalities.
+
 Post Management: Creating, updating, deleting, and viewing posts, along with file upload capabilities for posts.
+
 User Interaction: Features like following/unfollowing users and liking/unliking other user posts .
+
 Content Filtering: Abilities to filter the content posted by users.
+
 Support Dual language: include the arabic language along with English
+
 Unit testing for User login and Registration journey
 
 Project Stages:
 
 The project was divided into stages based on these requirements:
+
 Initial Setup: Configuring the server, database, and core modules.
+
 Database Design and Schema Definition: Creating user and post schemas.
+
 User Authentication: Implementing login mechanisms and security features.
+
 User Management: Developing functionalities for account creation, updates, and profile viewing.
+
 Post Management: Building the system for post interactions.
+
 User and Post Interaction: users interacting with each other and their posts
+
 User wall view management: Developing filters 
+
 Unit testing: User Login and Registration journey
+
 Adding Arabic language: Creating translation files
 
 # 1. Initial Setup 
