@@ -287,9 +287,10 @@ $ npm run start:prod
 ```
 
 ## Running the app with Docker
+```bash
 $ docker compose build 
 $ docker compose up 
-
+```
 
 ## Test
 
